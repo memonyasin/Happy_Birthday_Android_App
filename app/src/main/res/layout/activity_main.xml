@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent">
+
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Happy Birthday"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="75dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#ad1d45"
+        android:id="@+id/heading"/>
+        <VideoView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+                   android:layout_alignParentLeft="true"
+        android:layout_below="@+id/heading"
+        android:id="@+id/videoView"
+        android:layout_margin="5dp"/>
+
+
+    </RelativeLayout>
+</LinearLayout>
